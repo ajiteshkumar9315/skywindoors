@@ -1,0 +1,22 @@
+.fee-body{
+    position: absolute;
+    top: 317rem;
+    width: 100%;
+}
+
+.fee-head{
+    text-align: center;
+    color: rgb(59, 134, 119);
+    font-weight: bolder;
+}
+
+.fee-p{
+    text-align: center;
+    color: grey;
+}
+
+.fee-img{
+    padding-bottom: 5rem;
+    margin-left: 23rem;
+    width: 61%;
+}

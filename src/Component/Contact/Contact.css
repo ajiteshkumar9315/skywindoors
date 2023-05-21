@@ -1,0 +1,68 @@
+.contact1{
+    background-image: url("main-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: blur(2px); */
+    display: flex;
+    position: absolute;
+    top: 278rem;
+    width: 100%;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+
+.con-left{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-left: 22rem;
+    padding-top: 42px;
+}
+
+.con-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    margin-left:3rem ;
+    padding-top: 35px;
+}
+
+.con-head{
+    color: white;
+    font-weight: bolder;
+    font-size:36px;
+}
+
+.con-span{
+    color: black;
+    font-weight: 600;
+}
+
+.inpu1{
+    border-radius: 22px;
+    background: white;
+    width: 17rem;
+}
+
+.inpu2{
+    border-radius: 22px;
+    background: white;
+}
+
+.btn1{
+    width: 115px;
+    height: 40px;
+    background: black;
+    color: white;
+    border-radius: 22px;
+    margin-top: 11px;
+    margin-bottom: 42px;
+}
+
+.labelit{
+    font-weight: 600;
+    font-size: small;
+    padding: 8px;
+    color: black;
+}

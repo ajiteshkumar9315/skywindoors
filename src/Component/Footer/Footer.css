@@ -1,0 +1,66 @@
+.foot{
+    display: flex;
+    position: absolute;
+    top: 340rem;
+    background-image: url('footer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foo-left{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 17rem;
+    margin-top: 40px;
+}
+
+.foo-right{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* margin-left: 17rem; */
+    margin-top: 40px;
+}
+
+.foo-img{
+border-radius: 50%;
+}
+
+.container{
+    width: 25%;
+    color: white;
+    margin-left: -11px;
+    margin-top: 30px;
+}
+
+.menu{
+    position: relative;
+    right: 47rem;
+    color: white;
+}
+
+.upvc{
+    position: relative;
+    right: 37rem;
+    color: white;
+    top: -11.5rem;
+}
+
+.system{
+    position: relative;
+    right: 22rem;
+    color: white;
+    top: -27.5rem;
+    
+}
+
+.contact{
+    position: relative;
+    right: 3rem;
+    color: white;
+    top: -37.5rem;
+}
+
+ul{
+    list-style-type: none;
+}
