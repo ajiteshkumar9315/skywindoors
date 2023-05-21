@@ -24,16 +24,18 @@
     width: 37%;
     border: 1px solid red;
     margin-left: 11rem!important;
+    transition: .3s ease;
 }
 
 .img2{
-    width: 37%;
+    width: 35%;
     border: 1px solid red;
     margin-right: 11rem!important;
     display: flex;
     position: absolute;
     left: 49rem;
     top: 61rem;
+    transition: .3s ease;
 }
 
 .img3{
@@ -44,6 +46,7 @@
     position: absolute;
     /* left: 49rem; */
     top: 104rem;
+    transition: .3s ease;
 }
 
 .img4{
@@ -54,6 +57,7 @@
     position: absolute;
     left: 49rem;
     top: 104rem;
+    transition: .3s ease;
 }
 
 .p1{
@@ -111,6 +115,7 @@
     position: absolute;
     /* left: 49rem; */
     top: 147rem;
+    transition: .3s ease;
 }
 .img6{
     width: 37%;
@@ -120,6 +125,7 @@
     position: absolute;
     left: 49rem;
     top: 147rem;
+    transition: .3s ease;
 }
 .img7{
     width: 37%;
@@ -129,6 +135,7 @@
     position: absolute;
     /* left: 49rem; */
     top: 190rem;
+    transition: .3s ease;
 }
 .img8{
     width: 37%;
@@ -138,6 +145,7 @@
     position: absolute;
     left: 49rem;
     top: 190rem;
+    transition: .3s ease;
 }
 .img9{
     width: 37%;
@@ -147,6 +155,7 @@
     position: absolute;
     /* left: 49rem; */
     top: 201rem;
+    transition: .3s ease;
 }
 .img10{
     width: 37%;
@@ -156,6 +165,7 @@
     position: absolute;
     left: 49rem;
     top: 201rem;
+    transition: .3s ease;
 }
 .img11{
     width: 37%;
@@ -165,6 +175,7 @@
     position: absolute;
     /* left: 49rem; */
     top: 234rem;
+    transition: .3s ease;
 }
 .img12{
     width: 37%;
@@ -174,6 +185,7 @@
     position: absolute;
     left: 49rem;
     top: 234rem;
+    transition: .3s ease;
 }
 .img13{
     width: 40vh;
@@ -210,4 +222,9 @@
     position: absolute;
     left: 60rem;
     top: 215rem;
+   
+}
+
+.imag:hover{
+    transform: scale(0.9);
 }
