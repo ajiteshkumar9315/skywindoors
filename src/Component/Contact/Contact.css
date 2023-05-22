@@ -8,6 +8,19 @@
     top: 278rem;
     width: 100%;
     filter: drop-shadow(2px 4px 6px black);
+    animation: fade-up 1.4s ease;
+}
+
+@keyframes fade-up{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
 }
 
 

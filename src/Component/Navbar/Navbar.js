@@ -4,10 +4,10 @@ import './Navbar.css'
  const Navbar = () => {
   return (
     <>
-    <img src="../img2/above-nav.png" alt="" width='100%' />
+    <img src="../img2/above-nav.png" alt="" width='100%' className='nav-img1' />
     <nav className="navbar navbar-expand-lg bg-body-tertiary  fs-4 fw-medium ">
   <div className="container-fluid ">
-    <img src="../img2/logo.jpg" alt="" className='ms-5 nav-img' />
+    <img src="../img2/logo.jpg" alt="" className='ms-5 nav-img2' />
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

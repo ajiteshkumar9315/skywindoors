@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 //  #EFEFE8FF
 
  const Footer = () => {
@@ -60,6 +61,11 @@ import './Footer.css'
         </ul>
       </div>
       </div>
+      {/* <FontAwesomeIcon icon="fa-brands fa-facebook" />
+      <FontAwesomeIcon icon="fa-brands fa-instagram" /> */}
+      <a href="/" className="foot-icon1"><i className="fa fa-facebook  "></i></a>
+      <a href="/" className="foot-icon2"><i className="fa fa-instagram wa_handels "></i></a>
+      <a href="/" className="foot-icon3"><i className="fa fa-twitter wa_handels "></i></a>
      </footer>
     </>
      )
