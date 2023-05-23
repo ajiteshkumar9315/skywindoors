@@ -72,3 +72,29 @@
     height: 15vh; */
     background: rgb(59, 134, 119);
 }
+
+@media screen and (max-width:413px){
+    .about{
+        top: 122rem;
+        margin-left: -10rem;
+    }
+    .img{
+        width: 41vh;
+    }
+    .head{
+        position: relative;
+        left: -18rem;
+        top: -4rem;
+    }
+    .par{
+    position: relative;
+    width: 25rem;
+    right: 27rem;
+    top: 38rem;
+    }
+    .butt{
+    position: relative;
+    right: 21rem;
+    top: 39rem;
+    }
+}

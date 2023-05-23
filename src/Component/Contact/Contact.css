@@ -79,3 +79,9 @@
     padding: 8px;
     color: black;
 }
+
+@media screen and (max-width:413px){
+    .contact1{
+        display: none;
+    }
+}

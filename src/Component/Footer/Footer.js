@@ -63,8 +63,8 @@ import './Footer.css'
       </div>
       {/* <FontAwesomeIcon icon="fa-brands fa-facebook" />
       <FontAwesomeIcon icon="fa-brands fa-instagram" /> */}
-      <a href="/" className="foot-icon1"><i className="fa fa-facebook  "></i></a>
-      <a href="/" className="foot-icon2"><i className="fa fa-instagram wa_handels "></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100069513613629&mibextid=LQQJ4d" className="foot-icon1"><i className="fa fa-facebook  "></i></a>
+      <a href="http://Instagram.com/windoors_solution" className="foot-icon2"><i className="fa fa-instagram wa_handels "></i></a>
       <a href="/" className="foot-icon3"><i className="fa fa-twitter wa_handels "></i></a>
      </footer>
     </>

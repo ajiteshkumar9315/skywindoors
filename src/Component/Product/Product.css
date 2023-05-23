@@ -23,14 +23,14 @@
 .img1{
     width: 37%;
     border: 1px solid red;
-    margin-left: 11rem!important;
+    margin-left: 11rem;
     transition: .3s ease;
 }
 
 .img2{
     width: 37%;
     border: 1px solid red;
-    margin-right: 11rem!important;
+    margin-right: 11rem;
     display: flex;
     position: absolute;
     left: 49rem;
@@ -41,7 +41,7 @@
 .img3{
     width: 37%;
     border: 1px solid red;
-    margin-left: 11rem!important;
+    margin-left: 11rem;
     display: flex;
     position: absolute;
     /* left: 49rem; */
@@ -52,7 +52,7 @@
 .img4{
     width: 37%;
     border: 1px solid red;
-    margin-right: 11rem!important;
+    margin-right: 11rem;
     display: flex;
     position: absolute;
     left: 49rem;
@@ -110,7 +110,7 @@
 .img5{
     width: 37%;
     border: 1px solid red;
-    margin-left: 11rem!important;
+    margin-left: 11rem;
     display: flex;
     position: absolute;
     /* left: 49rem; */
@@ -120,7 +120,7 @@
 .img6{
     width: 37%;
     border: 1px solid red;
-    margin-right: 11rem!important;
+    margin-right: 11rem;
     display: flex;
     position: absolute;
     left: 49rem;
@@ -130,7 +130,7 @@
 .img7{
     width: 37%;
     border: 1px solid red;
-    margin-left: 11rem!important;
+    margin-left: 11rem;
     display: flex;
     position: absolute;
     /* left: 49rem; */
@@ -140,53 +140,14 @@
 .img8{
     width: 37%;
     border: 1px solid red;
-    margin-right: 11rem!important;
+    margin-right: 11rem;
     display: flex;
     position: absolute;
     left: 49rem;
     top: 190rem;
     transition: .3s ease;
 }
-.img9{
-    width: 37%;
-    border: 1px solid red;
-    margin-left: 11rem!important;
-    display: flex;
-    position: absolute;
-    /* left: 49rem; */
-    top: 201rem;
-    transition: .3s ease;
-}
-.img10{
-    width: 37%;
-    border: 1px solid red;
-    margin-right: 11rem!important;
-    display: flex;
-    position: absolute;
-    left: 49rem;
-    top: 201rem;
-    transition: .3s ease;
-}
-.img11{
-    width: 37%;
-    border: 1px solid red;
-    margin-left: 11rem!important;
-    display: flex;
-    position: absolute;
-    /* left: 49rem; */
-    top: 234rem;
-    transition: .3s ease;
-}
-.img12{
-    width: 37%;
-    border: 1px solid red;
-    margin-right: 11rem!important;
-    display: flex;
-    position: absolute;
-    left: 49rem;
-    top: 234rem;
-    transition: .3s ease;
-}
+
 .img13{
     width: 40vh;
     display: flex;
@@ -227,4 +188,73 @@
 
 .imag:hover{
     transform: scale(0.9);
+}
+
+@media screen and (max-width:413px){
+.img1,.img3,.img5,.img7{
+    margin-left: 18px;
+}
+.img2{
+    left: 14rem;
+    top: 60rem;
+}
+.img3{
+    top: 73rem;
+}
+.img4{
+    left: 14rem;
+    top: 73rem;
+}
+.img5{
+    top: 87rem;
+}
+.img6{
+    left: 14rem;
+    top: 87rem;
+}
+.img7{
+    top: 101rem;
+}
+.img8{
+    left: 14rem;
+    top: 101rem;
+}
+.img13{
+    left: 10rem;
+    top: 100rem;
+    transform: scale(0.28);
+}
+
+.p1{
+    left: 0px;
+    top: 68rem;
+}
+.p2{
+    left: 13rem;
+    top: 68rem;
+}
+.p3{
+    left: 11px;
+    top: 81.5rem;
+}
+.p4{
+    left: 13.4rem;
+    top: 81.5rem;
+}
+.p5{
+    left: 11px;
+    top: 95rem;
+}
+.p6{
+    left: 12rem;
+    top: 95rem;
+}
+.p7{
+    left: -11px;
+    top: 107rem;
+}
+.p8{
+    left: 12.7rem;
+    top: 107rem;
+}
 }

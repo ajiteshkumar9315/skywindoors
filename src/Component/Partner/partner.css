@@ -56,3 +56,27 @@
     margin-left:3rem ;
 }
 
+@media screen and (max-width:413px){
+    .par-body{
+        position: absolute;
+        top: 205rem;
+        width: 26rem;
+        height: 20rem;
+    }
+    .par-head{
+        position: absolute;
+        right: 13rem;
+        transform: scale(1.5);
+        top: 7rem;
+    }
+    .carousel-inner1{
+        position: absolute;
+        left: -13rem;
+        height: 16rem;
+    }
+    .par-img{
+        width: 13rem;
+        height: 16rem;
+    }
+    
+}
