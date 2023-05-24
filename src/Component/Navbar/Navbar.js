@@ -19,22 +19,7 @@ import './Navbar.css'
         <li className="nav-item p-2">
           <a className="nav-link" href="./About">About Us</a>
         </li>
-        <li className="nav-item dropdown p-2">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Product
-          </a>
-          <ul className="dropdown-menu">
-            <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">System Aluminium</a>
-          <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-            </li>
-            <li><a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">UPVC</a></li>
-          </ul>
-        </li>
+        
         <li className="nav-item p-2">
           <a className="nav-link" href="./Blog">Blog</a>
         </li>

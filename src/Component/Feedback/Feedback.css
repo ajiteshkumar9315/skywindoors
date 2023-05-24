@@ -34,3 +34,15 @@
     margin-left: 23rem;
     width: 61%;
 }
+
+@media screen and (max-width:413px){
+    .fee-body{
+        top: 229rem;
+    }
+    .fee-img{
+        margin-left: 0px;
+        width: 25rem;
+        height: 21rem
+    }
+    
+}

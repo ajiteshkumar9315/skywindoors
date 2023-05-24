@@ -5,7 +5,7 @@ import './Product.css';
 const Product = () => {
   return (
     <>
-    <img src="../img2/main-img.jpg" alt="" width='100%' height='500px' />
+    <img src="../img2/main-img.jpg" alt="" width='100%' height='500px' className='pro-img' />
     <h2 className='head1'>OUR PRODUCTS</h2>
     <p className='para'>Skywin Windoors Is Leading System Aluminium Company In Delhi NCR We ProvideHigh End Product With Aesthetic Design and Finish.</p>
     <h1 className='head2'>SYSTEM ALUMINIUM</h1> 

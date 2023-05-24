@@ -108,3 +108,52 @@ ul{
     border: 3.1px solid black;
     border-radius: 50%;
 }
+
+@media screen and (max-width:413px){
+    .foot{
+        top: 252rem;
+        height: 65rem;
+    }
+    .foo-img{
+        position: relative;
+        right: 15rem;
+    }
+    .container{
+        position: relative;
+        right: 15.1rem;
+        width: 15rem;
+    }
+    .menu{
+        position: absolute;
+        right: 22rem;
+        top: 15rem;
+    }
+    .upvc{
+        top: 33rem;
+        right: 31.5rem;
+    }
+    .system{
+        top: 17rem;
+        right: 20.5rem;
+    }
+    .contact{
+        top: 22rem;
+        right: 31rem;
+    }
+
+    .foot-icon1{
+        position: relative;
+        top: 32rem;
+        left: -43rem;
+    }
+    .foot-icon2{
+        position: relative;
+        top: 32rem;
+        left: -41rem;
+    }
+    .foot-icon3{
+        position: relative;
+        top: 32rem;
+        left: -39rem;
+    }
+}

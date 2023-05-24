@@ -2,6 +2,22 @@
     background: rgba(196, 195, 195, 0);
 }
 
+.pro-img{
+    animation: fade-up 1.4s ease;
+}
+
+@keyframes fade-up{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
 .head1{
     color: rgb(59, 134, 119);
     font-weight: bolder;
